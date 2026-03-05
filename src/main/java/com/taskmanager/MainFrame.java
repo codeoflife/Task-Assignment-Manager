@@ -114,7 +114,7 @@ public class MainFrame extends JFrame {
             }
             JOptionPane.showMessageDialog(this,
                     "<html><center><b>Task Assignment Manager</b><br/>" +
-                    "Java Swing + H2 Database<br/>v1.0 03/06/2026<br/>Sonal Brito</center></html>",
+                    "Java Swing + H2 Database<br/>v1.0 03/06/2026</center></html>",
                     "About", JOptionPane.PLAIN_MESSAGE, icon);
         });
         help.add(about);
@@ -364,4 +364,5 @@ public class MainFrame extends JFrame {
         t.setRepeats(true);
         t.start();
     }
+
 }
